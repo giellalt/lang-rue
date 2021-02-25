@@ -1,32 +1,42 @@
-!! =================================== !
-!! The Rusyn morphophonological/twolc rules file !
-!! =================================== !
-
 Alphabet
- a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å
- á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý þ ñ ð ß ç
+      %>     ! End of nominal stem
+      %<     ! End of verbal stem
+      %^F:0  ! placed immediately before fleeting vowels Fа Fе Fо Fи Fя Fа́ Fе́ Fё Fо́ Fи́ Fя́
+      %^o:о %^O:о́ ! verbal prefix fleeting vowels
 
- A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
- Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
+      »7     ! »
+      «7     ! «
+      %[%>%]
+      %[%<%] ! angle brackets (this is to avoid the internal use of < and >)
 
- %>:0 ;
+      %%
+      %  ! space
+      %-
+
+      ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ⁰ ! Used to enumerate homonymous lemmas
+
+      № 1 2 3 4 5 6 7 8 9 %0 ! numerals in compounds like 10-летие
+
+      А Б В Г Ґ Д Е Є Ё Ж З І Ї И Ы Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ю Я Ь Ъ
+      а б в г ґ д е є ё ж з і ї и ы й к л м н о п р с т у ф х ц ч ш щ ю я ь ъ ;
 
 Sets
 
- Vow = a e i o u y æ ø å 
-       á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý ;
- Cns = b c d f g h j k l m n p q r s t v w x z ð þ ;
- 
+Letter = А Б В Г Ґ Д Е Є Ё Ж З І Ї И Ы Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ю Я Ь Ъ
+         а б в г ґ д е є ё ж з і ї и ы й к л м н о п р с т у ф х ц ч ш щ ю я ь ъ ;
+
+! Consonants
+C = Б В Г Ґ Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Ь Ъ
+    б в г ґ д ж з й к л м н п р с т ф х ц ч ш щ ь ъ ;
+
+! Vowels
+V = А Е Є Ё І Ї И Ы О У Ю Я
+    а е є ё і ї и ы о у ю я ;
+
+! Definitions
+
+
 Rules
 
-"Deleting stem-final s in s genitive"
- s:0 <=> Vow s %>: _ ;
-
-!!€ primus%>s
-!!€ primus00
-
-!!€grís%>s
-!!€grís00
-
-!!$grís%>s
-!!$grís0s
+"DELETE ME Not real rule"
+а:я <=> б в г д _ т р ф г ч т р ч ф ч ф ч ;

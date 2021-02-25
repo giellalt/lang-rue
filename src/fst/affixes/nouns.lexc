@@ -2,14 +2,6 @@
 !  ---------------
 !! The Rusyn language nouns inflect in cases.
 
-LEXICON Cases
- +N+Sg+nom:0   #     ;
- +N+Pl+nom:i   #     ;
- +N+Sg+loc:as  #     ;
- +N+Pl+loc:ias #     ;
- +N+Sg+acc:at  #     ;
- +N+Pl+acc:iat #     ;
-         #:0   Nouns ;
-
-! vim: set ft=xfst-lexc:
-
+LEXICON Noun_neut
++N+Sg+Nom:%>о  #  ;
++N+Pl+Nom:%>а  #  ;

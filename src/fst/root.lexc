@@ -20,130 +20,117 @@
 
 Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 
-!! !!Analysis symbols
-!  ----------------
-!! The morphological analyses of wordforms for the Rusyn
-!! language are presented in this system in terms of the following symbols.
-!! (It is highly suggested to follow existing standards when adding new tags).
+!! !!Symbols that need to be escaped on the lower side (towards twolc): (copied from sme)
+»7     ! »
+«7     ! «
 
-!! The parts-of-speech are:
- +N +A +Adv +V                                 !!≈
- +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num !!≈
+%[%>%]  ! >
+%[%<%]  ! <
 
-!! The parts of speech are further split up into:
- +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
+#7 ! real #
 
-!! The Usage extents are marked using following tags:
- +Err/Orth   
- +Use/-Spell 
+!! !!Markers
 
-!! The nominals are inflected in the following Case and Number
- +Sg +Du +Pl
- +Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh
+¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ⁰ !!= * @CODE@ = Used to enumerate homonymous lemmas
+%>   !!= * @CODE@ = End-of-stem marker (nominals)
+%<   !!= * @CODE@ = End-of-stem marker (verbs)
 
-!! The possession is marked as such:
- +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
-!! The comparative forms are:
- +Comp +Superl
-!! Numerals are classified under:
- +Attr +Card
- +Ord 
-!! Verb moods are:
- +Ind +Prs +Prt +Pot +Cond +Imprt
-!! Verb personal forms are:
- +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3
-!! Other verb forms are
- +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
+!! !!POS
++A      !!= * @CODE@ = Adjective
++Abbr   !!= * @CODE@ = Abbreviation
++Adv    !!= * @CODE@ = Adverb
++CC     !!= * @CODE@ = Coordinating conjunction
++CS     !!= * @CODE@ = Subordinating conjunction
++Det    !!= * @CODE@ = Determiner
++Interj !!= * @CODE@ = Interjection
++N      !!= * @CODE@ = Noun
++Num    !!= * @CODE@ = Numeral
++Paren  !!= * @CODE@ = Parenthetical вводное слово
++Pcle   !!= * @CODE@ = Particle
++Po     !!= * @CODE@ = Postposition (ради is the only postposition)
++Pr     !!= * @CODE@ = Preposition
++Pron   !!= * @CODE@ = Pronoun
++V      !!= * @CODE@ = Verb
 
-! Abbreviated words are classified with:
- +ABBR +ACR 
+!! !!Sub-POS
++All    !!= * @CODE@ = All: весь
++Coll   !!= * @CODE@ = Collective numerals
++Def    !!= * @CODE@ = Definite
++Dem    !!= * @CODE@ = Demonstrative
++Indef  !!= * @CODE@ = Indefinite: кто-то, кто-нибудь, кто-либо, кое-кто, etc.
++Interr !!= * @CODE@ = Interrogative: кто, что, какой, ли, etc.
++Neg    !!= * @CODE@ = Negative: никто, некого, etc.
++Pers   !!= * @CODE@ = Personal
++Pos    !!= * @CODE@ = Possessive, e.g. его, наш
++Prcnt  !!= * @CODE@ = Percent
++Prop   !!= * @CODE@ = Proper
++Recip  !!= * @CODE@ = Reciprocal: друг друга
++Refl   !!= * @CODE@ = Pronoun себя, possessive свой
++Rel    !!= * @CODE@ = Relativizer, e.g. который, где, как, куда, сколько, etc.
 +Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
-!! Special symbols are classified with:
-+CLB +PUNCT +LEFT +RIGHT
-!! The verbs are syntactically split according to transitivity:
- +TV +IV
-!! Special multiword units are analysed with:
- +Multi
-!! Non-dictionary words can be recognised with:
- +Guess
 
-!! Question and Focus particles:
- +Qst +Foc
+!! !!Verbal MSP
++Impf +Perf       !!= * @CODE@ = Imperfective, perfective
++IV +TV           !!= * @CODE@ = Intransitive, transitive (Zaliznjak does not mark trans-only, so transitive verbs all have both TV and IV)
++Inf +Imp         !!= * @CODE@ = Imperatives: 2nd person = читай, 1st person = прочитаем
++Pst +Prs +Fut    !!= * @CODE@ = Past, present, future
++Sg1 +Sg2 +Sg3    !!= * @CODE@ = person sg
++Pl1 +Pl2 +Pl3    !!= * @CODE@ = person pl
++PrsAct +PrsPss   !!= * @CODE@ = Participles (+PrsAct+Adv and +PstAct+Adv are used for the verbal adverbs)
++PstAct +PstPss   !!= * @CODE@ = Participles
++Pass             !!= * @CODE@ = Passive
++Imprs            !!= * @CODE@ = Impersonal (cannot have explicit subject)
++Lxc            !!= * @CODE@ = Lexicalized (for participial forms)
 
++Der            !!= * @CODE@ = Derived (for participial forms)
++Der/PrsAct            !!= * @CODE@ = Derived (for participial forms)
++Der/PrsPss            !!= * @CODE@ = Derived (for participial forms)
++Der/PstAct            !!= * @CODE@ = Derived (for participial forms)
++Der/PstPss            !!= * @CODE@ = Derived (for participial forms)
 
-!! Semantics are classified with
- +Mal +Fem +Sur 
- +Plc 
- +Org
- +Obj
- +Ani
- +Hum
- +Plant
- +Group
- +Time 
- +Txt
- +Route
- +Measr 
- +Wthr
- +Build 
- +Edu
- +Veh
- +Clth
+!! !!Nominal MSP
++Msc +Fem +Neu +MFN  !!= * @CODE@ = grammatical gender,  +MFN = gender unspecifiable (pl tantum)
++Inan +Anim +AnIn    !!= * @CODE@ = animacy (+AnIn = ambivalent animacy for non-accusative modifiers)
++Sem/Sur +Sem/Pat    !!= * @CODE@ = Surname (фамилия), Patronymic
++Sem/Ant +Sem/Alt    !!= * @CODE@ = Anthroponym/Given name, Other
++Sg +Pl              !!= * @CODE@ = number
++Nom +Acc +Gen       !!= * @CODE@
++Loc +Dat +Ins       !!= * @CODE@
++Loc2 +Gen2 +Voc     !!= * @CODE@
++Count               !!= * @CODE@ = Count (for человек/людей or лет/годов, etc. also шага́/шара́/часа́/etc.)
++Ord    !!= * @CODE@  = Ordinal
++Cmpar  !!= * @CODE@  = Comparative
++Sint   !!= * @CODE@  = Synthetic comparative is possible, e.g. старее
++Pred   !!= * @CODE@  = "Predicate", also used for short-form adjectives
++Cmpnd  !!= * @CODE@  = "Compound", used for compounding adjectives, such as русско-английский
++Att    !!= * @CODE@  = Attenuative comparatives like получше, поновее, etc.
 
+!! !!Punctuation
++PUNCT   !!= * @CODE@ = Punctuation
++CLB   !!= * @CODE@ = Clause boundary  ! TODO SENT vs CLB which is which?
++SENT   !!= * @CODE@ = Clause boundary
++COMMA  !!= * @CODE@ = Comma
++DASH   !!= * @CODE@ = Dash
++LQUOT   !!= * @CODE@ = Left quotation
++RQUOT   !!= * @CODE@ = Right quotation
++QUOT   !!= * @CODE@ = "Ambidextrous" quotation
++LPAR    !!= * @CODE@ = Left parenthesis/bracket
++RPAR    !!= * @CODE@ = Right parenthesis/bracket
++LEFT    !!= * @CODE@ = Left parenthesis/bracket/quote/etc.
++RIGHT    !!= * @CODE@ = Right parenthesis/bracket/quote/etc.
 
-!! Derivations are classified under the morphophonetic form of the suffix, the
-!! source and target part-of-speech.
- +V→N +V→V +V→A
- +Der/xxx
+!! !!Other tags
++Prb     !!= * @CODE@ = +Prb(lematic): затруднительно - предположительно - нет
++Fac     !!= * @CODE@ = Facultative
++PObj    !!= * @CODE@ = Object of preposition (prothetic н: него нее них)
++Epenth  !!= * @CODE@ = epenthesis on prepositions (о~об~обо or в~во)
++Leng    !!= * @CODE@ = Lengthened доброй~доброю (marks less-canonical wordform that has more syllables)
++Elid    !!= * @CODE@ = Elided (Иванович~Иваныч, новее~новей, чтобы~чтоб, или~иль, коли~коль)
++Use/NG  !!= * @CODE@ = Do not generate (used for apertium, etc.)
++Use/Obs !!= * @CODE@ = Obsolete
++Use/Ant !!= * @CODE@ = Antiquated "устаревшее"
++Err/Orth !!= * @CODE@ = Spelling (orthographic) error
 
-
-!! Morphophonology
-!  ---------------
-!! To represent phonologic variations in word forms we use the following
-!! symbols in the lexicon files:
- {aä} {oö} {uü}
-
-!! And following triggers to control variation
- {front} {back}
-
-!! !!Flag diacritics
-!! We have manually optimised the structure of our lexicon using following
-!! flag diacritics to restrict morhpological combinatorics - only allow compounds
-!! with verbs if the verb is further derived into a noun again:
- @P.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @D.NeedNoun.ON@    !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @C.NeedNoun@       !!≈ | @CODE@ | (Dis)allow compounds with verbs unless nominalised
-!! 
-!! For languages that allow compounding, the following flag diacritics are needed
-!! to control position-based compounding restrictions for nominals. Their use is
-!! handled automatically if combined with +CmpN/xxx tags. If not used, they will
-!! do no harm.
- @P.CmpFrst.FALSE@ !!≈ | @CODE@ | Require that words tagged as such only appear first
- @D.CmpPref.TRUE@  !!≈ | @CODE@ | Block such words from entering ENDLEX
- @P.CmpPref.FALSE@ !!≈ | @CODE@ | Block these words from making further compounds
- @D.CmpLast.TRUE@  !!≈ | @CODE@ | Block such words from entering R
- @D.CmpNone.TRUE@  !!≈ | @CODE@ | Combines with the next tag to prohibit compounding
- @U.CmpNone.FALSE@ !!≈ | @CODE@ | Combines with the prev tag to prohibit compounding
- @P.CmpOnly.TRUE@  !!≈ | @CODE@ | Sets a flag to indicate that the word has passed R
- @D.CmpOnly.FALSE@ !!≈ | @CODE@ | Disallow words coming directly from root.
-!! 
-!! Use the following flag diacritics to control downcasing of derived proper
-!! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
-!! these flags. There exists a ready-made regex that will do the actual down-casing
-!! given the proper use of these flags.
- @U.Cap.Obl@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
- @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
 LEXICON Root
-!! The word forms in Rusyn language start from the lexeme roots of basic
-!! word classes, or optionally from prefixes:
-0   Nouns       ;
-0   Verbs       ;
-0   Adjectives  ;
-0   Pronouns    ;
-0   Numerals    ;
-0   Prefixes    ;
-    Punctuation ;
-    Symbols     ;
-
-! vim: set ft=xfst-lexc:
+Nouns ;

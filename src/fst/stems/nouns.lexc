@@ -3,6 +3,4 @@
 !! Nouns in the Rusyn language are things.
 
 LEXICON Nouns
-noun    Cases   ;
-
-! vim: set ft=xfst-lexc:
+слово Noun_neut ;
