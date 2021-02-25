@@ -3,4 +3,9 @@
 !! Nouns in the Rusyn language are things.
 
 LEXICON Nouns
-слово Noun_neut ;
+слово Noun_neut "gloss: word" ;
+рано Noun_neut "gloss: morning" ;
+!!€gt-desc: morning
+!!€ рано: рано+N+Sg+Nom
+!!€ рана: рано+N+Pl+Nom
+
