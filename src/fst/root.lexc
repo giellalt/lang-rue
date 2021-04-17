@@ -18,9 +18,9 @@
 !! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Rusyn LANGUAGE.
  
 
-Multichar_Symbols  !!≈ !!!Definitions for @CODE@
+Multichar_Symbols  !!≈ # Definitions for @CODE@
 
-!! !!Symbols that need to be escaped on the lower side (towards twolc): (copied from sme)
+!! ## Symbols that need to be escaped on the lower side (towards twolc): (copied from sme)
 »7     ! »
 «7     ! «
 
@@ -29,13 +29,13 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 
 #7 ! real #
 
-!! !!Markers
+!! ## Markers
 
 ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ⁰ !!= * @CODE@ = Used to enumerate homonymous lemmas
 %>   !!= * @CODE@ = End-of-stem marker (nominals)
 %<   !!= * @CODE@ = End-of-stem marker (verbs)
 
-!! !!POS
+!! ## POS
 +A      !!= * @CODE@ = Adjective
 +Abbr   !!= * @CODE@ = Abbreviation
 +Adv    !!= * @CODE@ = Adverb
@@ -52,7 +52,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +Pron   !!= * @CODE@ = Pronoun
 +V      !!= * @CODE@ = Verb
 
-!! !!Sub-POS
+!! ## Sub-POS
 +All    !!= * @CODE@ = All: весь
 +Coll   !!= * @CODE@ = Collective numerals
 +Def    !!= * @CODE@ = Definite
@@ -69,7 +69,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +Rel    !!= * @CODE@ = Relativizer, e.g. который, где, как, куда, сколько, etc.
 +Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 
-!! !!Verbal MSP
+!! ## Verbal MSP
 +Impf +Perf       !!= * @CODE@ = Imperfective, perfective
 +IV +TV           !!= * @CODE@ = Intransitive, transitive (Zaliznjak does not mark trans-only, so transitive verbs all have both TV and IV)
 +Inf +Imp         !!= * @CODE@ = Imperatives: 2nd person = читай, 1st person = прочитаем
@@ -88,7 +88,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +Der/PstAct            !!= * @CODE@ = Derived (for participial forms)
 +Der/PstPss            !!= * @CODE@ = Derived (for participial forms)
 
-!! !!Nominal MSP
+!! ## Nominal MSP
 +Msc +Fem +Neu +MFN  !!= * @CODE@ = grammatical gender,  +MFN = gender unspecifiable (pl tantum)
 +Inan +Anim +AnIn    !!= * @CODE@ = animacy (+AnIn = ambivalent animacy for non-accusative modifiers)
 +Sem/Sur +Sem/Pat    !!= * @CODE@ = Surname (фамилия), Patronymic
@@ -105,7 +105,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +Cmpnd  !!= * @CODE@  = "Compound", used for compounding adjectives, such as русско-английский
 +Att    !!= * @CODE@  = Attenuative comparatives like получше, поновее, etc.
 
-!! !!Punctuation
+!! ## Punctuation
 +PUNCT   !!= * @CODE@ = Punctuation
 +CLB   !!= * @CODE@ = Clause boundary  ! TODO SENT vs CLB which is which?
 +SENT   !!= * @CODE@ = Clause boundary
@@ -119,7 +119,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +LEFT    !!= * @CODE@ = Left parenthesis/bracket/quote/etc.
 +RIGHT    !!= * @CODE@ = Right parenthesis/bracket/quote/etc.
 
-!! !!Other tags
+!! ## Other tags
 +Prb     !!= * @CODE@ = +Prb(lematic): затруднительно - предположительно - нет
 +Fac     !!= * @CODE@ = Facultative
 +PObj    !!= * @CODE@ = Object of preposition (prothetic н: него нее них)
