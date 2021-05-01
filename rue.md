@@ -1,3 +1,6 @@
+Noun inflection
+The Rusyn language nouns inflect in cases.
+
 
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Rusyn LANGUAGE.
 
@@ -110,6 +113,68 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Rusyn LANGUAGE.
  * +Use/Ant  = Antiquated "устаревшее"
  * +Err/Orth  = Spelling (orthographic) error
 
+
+Nouns
+Nouns in the Rusyn language are things.
+
+
+*morning examples:*
+* *рано:* `рано+N+Sg+Nom`
+* *рана:* `рано+N+Pl+Nom`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% komma% :,      Root ;
+% tjuohkkis% :%. Root ;
+% kolon% :%:     Root ;
+% sárggis% :%-   Root ; 
+% násti% :%*     Root ; 
 
 
 

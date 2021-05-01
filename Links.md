@@ -1,2 +1,5 @@
+* [nouns-affixes.md](nouns-affixes.md)
 * [root-morphology.md](root-morphology.md)
+* [nouns-stems.md](nouns-stems.md)
+* [transcriptor-numbers-digit2text.md](transcriptor-numbers-digit2text.md)
 * [transcriptor-abbrevs2text.md](transcriptor-abbrevs2text.md)
