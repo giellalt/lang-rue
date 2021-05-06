@@ -1,3 +1,11 @@
+Nouns
+Nouns in the Rusyn language are things.
+
+
+*morning examples:*
+* *рано:* `рано+N+Sg+Nom`
+* *рана:* `рано+N+Pl+Nom`
+
 Noun inflection
 The Rusyn language nouns inflect in cases.
 
@@ -114,13 +122,21 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Rusyn LANGUAGE.
  * +Err/Orth  = Spelling (orthographic) error
 
 
-Nouns
-Nouns in the Rusyn language are things.
 
 
-*morning examples:*
-* *рано:* `рано+N+Sg+Nom`
-* *рана:* `рано+N+Pl+Nom`
+
+We describe here how abbreviations are in Rusyn are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
+
 
 
 
@@ -175,20 +191,4 @@ Nouns in the Rusyn language are things.
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
-
-
-
-
-We describe here how abbreviations are in Rusyn are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
 
