@@ -111,3 +111,5 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Rusyn LANGUAGE.
  * +Err/Orth  = Spelling (orthographic) error
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-rue/blob/main/../src/fst/root.lexc)</small>

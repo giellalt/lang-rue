@@ -199,7 +199,7 @@
 * Sets for verbs
 
 
-    - V is all readings with a V tag in them, REAL-V should
+- V is all readings with a V tag in them, REAL-V should
 be the ones without an N tag following the V.  
 The REAL-V set thus awaits a fix to the preprocess V ... N bug.
 
@@ -604,18 +604,8 @@ These were the set types.
 
 
 
-Noun inflection
-The Rusyn language nouns inflect in cases.
-
-Nouns
-Nouns in the Rusyn language are things.
-
-
-*morning examples:*
-* *рано:* `рано+N+Sg+Nom`
-* *рана:* `рано+N+Pl+Nom`
-
-
+* * *
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-rue/blob/main/../src/cg3/functions.cg3)</small>
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Rusyn LANGUAGE.
 
 
@@ -728,7 +718,21 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Rusyn LANGUAGE.
  * +Err/Orth  = Spelling (orthographic) error
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-rue/blob/main/../src/fst/root.lexc)</small>Noun inflection
+The Rusyn language nouns inflect in cases.
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-rue/blob/main/../src/fst/affixes/nouns.lexc)</small>Nouns
+Nouns in the Rusyn language are things.
+
+
+*morning examples:*
+* *рано:* `рано+N+Sg+Nom`
+* *рана:* `рано+N+Pl+Nom`
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-rue/blob/main/../src/fst/stems/nouns.lexc)</small>
 
 
 
@@ -782,7 +786,8 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Rusyn LANGUAGE.
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
 
-
+* * *
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-numbers-digit2text.lexc](http://github.com/giellalt/lang-rue/blob/main/../src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 
 We describe here how abbreviations are in Rusyn are read out, e.g.
@@ -798,3 +803,5 @@ For example:
  * esim.:esimerkiksi # ; 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-rue/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
