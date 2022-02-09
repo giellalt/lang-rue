@@ -1,12 +1,9 @@
 
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Rusyn LANGUAGE.
 
-
 # Definitions for Multichar_Symbols
 
 ## Symbols that need to be escaped on the lower side (towards twolc): (copied from sme)
-
-
 
 ## Markers
 
@@ -110,6 +107,9 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Rusyn LANGUAGE.
 * +Use/Ant  = Antiquated "устаревшее"
 * +Err/Orth  = Spelling (orthographic) error
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-rue/blob/main/../src/fst/root.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-rue/blob/main/src/fst/root.lexc)</small>
+
+---
+
