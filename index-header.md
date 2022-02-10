@@ -1,7 +1,7 @@
 # Rusyn documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
-[![License](https://img.shields.io/github/license/giellalt/lang-rue)](https://raw.githubusercontent.com/giellalt/lang-rue/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-rue)](https://github.com/giellalt/lang-rue/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-rue)](https://github.com/giellalt/lang-rue/issues)
 [![Build status](https://github.com/giellalt/lang-rue/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-rue/actions)
 
