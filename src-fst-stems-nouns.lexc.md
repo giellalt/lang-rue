@@ -1,7 +1,7 @@
 Nouns
 Nouns in the Rusyn language are things.
 
-*morning examples:*
+* morning examples:*
 * *рано:* `рано+N+Sg+Nom`
 * *рана:* `рано+N+Pl+Nom`
 
