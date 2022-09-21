@@ -30,7 +30,7 @@ Documentation
 
 Documentation can be found at:
 
--   <https://giellalt.uit.no/lang/ruedoc/index.html>
+- [Language specific documentation](https://giellalt.github.io/lang-rue/)
 -   <https://giellalt.uit.no/index.html>
 
 Core dependencies
