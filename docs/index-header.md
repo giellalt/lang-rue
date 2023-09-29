@@ -3,7 +3,7 @@
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
 [![License](https://img.shields.io/github/license/giellalt/lang-rue)](https://github.com/giellalt/lang-rue/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-rue)](https://github.com/giellalt/lang-rue/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-rue/main/badge.svg)](https://github.com/giellalt/lang-rue/actions)
+[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-rue/main/badge.svg)](https://github.com/giellalt/lang-rue/actions)
 
 This page documents the work on the **Rusyn language model**. 
 
