@@ -2,7 +2,7 @@ The Rusyn morphology and tools
 ==========================================
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-rue)](https://github.com/giellalt/lang-rue/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-rue/main/badge.svg)](https://github.com/giellalt/lang-rue/actions)
+[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-rue/main/badge.svg)](https://github.com/giellalt/lang-rue/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-rue)](https://github.com/giellalt/lang-rue/blob/main/LICENSE)
 [![Desktop speller download](https://img.shields.io/badge/download%40latest-desktop--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-rue?platform=desktop&channel=nightly)
 [![Mobile speller download](https://img.shields.io/badge/download%40latest-mobile--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-rue?platform=mbile&channel=nightly)
