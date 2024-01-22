@@ -175,7 +175,7 @@ The Rusyn language nouns inflect in cases.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-rue/blob/main/src/fst/affixes/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/nouns.lexc](https://github.com/giellalt/lang-rue/blob/main/src/fst/morphology/affixes/nouns.lexc)</small>
 
 ---
 
@@ -290,7 +290,7 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Rusyn LANGUAGE.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-rue/blob/main/src/fst/root.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/root.lexc](https://github.com/giellalt/lang-rue/blob/main/src/fst/morphology/root.lexc)</small>
 
 ---
 
@@ -303,7 +303,7 @@ Nouns in the Rusyn language are things.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-rue/blob/main/src/fst/stems/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns.lexc](https://github.com/giellalt/lang-rue/blob/main/src/fst/morphology/stems/nouns.lexc)</small>
 
 ---
 
@@ -470,7 +470,7 @@ retracted tongue root			_q
 
 * * *
 
-<small>This (part of) documentation was generated from [src/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-rue/blob/main/src/phonetics/txt2ipa.xfscript)</small>
+<small>This (part of) documentation was generated from [src/fst/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-rue/blob/main/src/fst/phonetics/txt2ipa.xfscript)</small>
 
 ---
 
@@ -490,7 +490,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-rue/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-rue/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
 
@@ -504,7 +504,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-rue/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-rue/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
 
