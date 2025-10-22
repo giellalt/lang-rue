@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-rue)](https://github.com/giellalt/lang-rue/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-rue)](https://github.com/giellalt/lang-rue/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-rue?label=CI)](https://builds.giellalt.org/pipelines/lang-rue/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/__GLOTTOLOG_ID__)
 
 This page documents the work on the **Rusyn language model**. 
 
