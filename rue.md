@@ -4,7 +4,7 @@ All doc-comment documentation in one large file.
 
 ---
 
-# src-cg3-functions.cg3.md 
+## src-cg3-functions.cg3.md 
 
 
 
@@ -43,7 +43,7 @@ part of the noun phrase of that noun (i.e., "scan to the next NP head")
 
 These were the set types.
 
-## HABITIVE MAPPING
+### HABITIVE MAPPING
 
 * **hab1** 
 
@@ -162,16 +162,16 @@ These were the set types.
 
 * **<opredAAcc** (@<OPRED) for A Acc; if an other accusative to the left, and a transtive verb to the left of it. OR: if a transitive verb to the left, and an accusative to the left of it.
 
-### sma object
+#### sma object
 
 * **<advlEss** (@<ADVL) for ESS-ADVL if; FMAINV to the left
 * **<spredEss** (@<SPRED) for N Ess if; FMAINV to the left is intransitive or bargat
 
-## SUBJ MAPPING - leftovers
+### SUBJ MAPPING - leftovers
 
-## OBJ MAPPING - leftovers
+### OBJ MAPPING - leftovers
 
-## HNOUN MAPPING
+### HNOUN MAPPING
 
 * * *
 
@@ -179,7 +179,7 @@ These were the set types.
 
 ---
 
-# src-fst-morphology-affixes-nouns.lexc.md 
+## src-fst-morphology-affixes-nouns.lexc.md 
 
 Noun inflection
 The Rusyn language nouns inflect in cases.
@@ -190,22 +190,22 @@ The Rusyn language nouns inflect in cases.
 
 ---
 
-# src-fst-morphology-root.lexc.md 
+## src-fst-morphology-root.lexc.md 
 
 
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Rusyn LANGUAGE.
 
-# Definitions for Multichar_Symbols
+## Definitions for Multichar_Symbols
 
-## Symbols that need to be escaped on the lower side (towards twolc): (copied from sme)
+### Symbols that need to be escaped on the lower side (towards twolc): (copied from sme)
 
-## Markers
+### Markers
 
 * ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ⁰  = Used to enumerate homonymous lemmas
 * %>    = End-of-stem marker (nominals)
 * %<    = End-of-stem marker (verbs)
 
-## POS
+### POS
 * +A       = Adjective
 * +Abbr    = Abbreviation
 * +Adv     = Adverb
@@ -222,7 +222,7 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Rusyn LANGUAGE.
 * +Pron    = Pronoun
 * +V       = Verb
 
-## Sub-POS
+### Sub-POS
 * +All     = All: весь
 * +Coll    = Collective numerals
 * +Def     = Definite
@@ -239,7 +239,7 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Rusyn LANGUAGE.
 * +Rel     = Relativizer, e.g. который, где, как, куда, сколько, etc.
 * +Symbol = independent symbols in the text stream, like £, €, ©
 
-## Verbal MSP
+### Verbal MSP
 * +Impf +Perf        = Imperfective, perfective
 * +IV +TV            = Intransitive, transitive (Zaliznjak does not mark trans-only, so transitive verbs all have both TV and IV)
 * +Inf +Imp          = Imperatives: 2nd person = читай, 1st person = прочитаем
@@ -258,7 +258,7 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Rusyn LANGUAGE.
 * +Der/PstAct             = Derived (for participial forms)
 * +Der/PstPss             = Derived (for participial forms)
 
-## Nominal MSP
+### Nominal MSP
 * +Msc +Fem +Neu +MFN   = grammatical gender,  +MFN = gender unspecifiable (pl tantum)
 * +Inan +Anim +AnIn     = animacy (+AnIn = ambivalent animacy for non-accusative modifiers)
 * +Sem/Sur +Sem/Pat     = Surname (фамилия), Patronymic
@@ -275,7 +275,7 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Rusyn LANGUAGE.
 * +Cmpnd    = "Compound", used for compounding adjectives, such as русско-английский
 * +Att      = Attenuative comparatives like получше, поновее, etc.
 
-## Punctuation
+### Punctuation
 * +PUNCT    = Punctuation
 * +CLB    = Clause boundary  ! TODO SENT vs CLB which is which?
 * +SENT    = Clause boundary
@@ -289,7 +289,7 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Rusyn LANGUAGE.
 * +LEFT     = Left parenthesis/bracket/quote/etc.
 * +RIGHT +MIDDLE  = Right parenthesis/bracket/quote/etc.
 
-## Other tags
+### Other tags
 * +Prb      = +Prb(lematic): затруднительно - предположительно - нет
 * +Fac      = Facultative
 * +PObj     = Object of preposition (prothetic н: него нее них)
@@ -307,7 +307,7 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Rusyn LANGUAGE.
 
 ---
 
-# src-fst-morphology-stems-nouns.lexc.md 
+## src-fst-morphology-stems-nouns.lexc.md 
 
 Nouns
 Nouns in the Rusyn language are things.
@@ -322,7 +322,7 @@ Nouns in the Rusyn language are things.
 
 ---
 
-# src-fst-phonetics-txt2ipa.xfscript.md 
+## src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -491,7 +491,7 @@ retracted tongue root			_q
 
 ---
 
-# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+## src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
 
 
 
@@ -513,7 +513,7 @@ For example:
 
 ---
 
-# src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
+## src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
 
 
 
@@ -529,9 +529,9 @@ For example:
 
 ---
 
-# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
 
-# Tokeniser for rue
+## Tokeniser for rue
 
 Usage:
 ```
@@ -575,7 +575,7 @@ ASCII digits
 so far:
 * U+F0B7 for "x in box"
 
-## Unknown handling
+### Unknown handling
 Unknowns are tagged ?? and treated specially with `hfst-tokenise`
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
@@ -594,9 +594,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
-# Grammar checker tokenisation for rue
+## Grammar checker tokenisation for rue
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
@@ -659,9 +659,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
 
-# TTS tokenisation for smj
+## TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
