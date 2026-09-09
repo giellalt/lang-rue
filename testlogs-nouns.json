@@ -1,0 +1,1 @@
+{"id":"nouns","kind":"lemma","failures":[{"lemma":"рано","no_generation":[],"wrong_generation":[{"expected":"рано+N+Sg+Nom","got":"раноо"},{"expected":"рано+N+Pl+Nom","got":"раноа"}],"analyses":[]},{"lemma":"слово","no_generation":[],"wrong_generation":[{"expected":"слово+N+Sg+Nom","got":"словоо"},{"expected":"слово+N+Pl+Nom","got":"словоа"}],"analyses":[]}]}
